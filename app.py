@@ -3,7 +3,7 @@ import streamlit as st
 from langchain_community.llms import Ollama
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.llms import HuggingFaceHub
 
 from langchain.chains import RetrievalQA
 from langchain.prompts import ChatPromptTemplate
